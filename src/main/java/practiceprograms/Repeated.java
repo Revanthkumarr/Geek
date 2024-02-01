@@ -9,12 +9,16 @@ public class Repeated {
         Repeated r=new Repeated();
         String s1="ramuram";
         Map<Character, Integer> counts = r.cont(s1);
-        System.out.println("char cou");
+        //System.out.println("char cou");
         for (Map.Entry<Character, Integer> entry : counts.entrySet()) {
-            if (entry.getValue()>1) {
-                System.out.print(entry.getKey());
+            if (entry.getValue() > 1) {
+                System.out.println(entry.getKey());
             }
+        }System.out.print("");
+        for (Map.Entry<Character, Integer> entry : counts.entrySet()) {
+            System.out.println("'" + entry.getKey() + "': " + entry.getValue());
         }
+
     }
     public Map<Character, Integer> cont(String s){
         Map<Character, Integer> co=new HashMap<>();
