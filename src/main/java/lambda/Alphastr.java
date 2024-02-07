@@ -17,13 +17,6 @@ public class Alphastr {
                 .sorted()
                 .toList();
 
-
-
-
-
-
-
-
         System.out.println(capitalizedList);
 
     }
