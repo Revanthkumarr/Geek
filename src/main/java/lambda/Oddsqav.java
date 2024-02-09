@@ -13,7 +13,7 @@ public class Oddsqav {
                .filter(n->n%2!=0)
                .map(n -> n * n)
                .collect(Collectors.summingInt(Integer::intValue));*/
-        List<Integer> numbers = Arrays.asList(2,9,8,7,5);
+        List<Integer> numbers = Arrays.asList(2,9,8,7,5,11,13);
 
 
         long sum = numbers.stream()
